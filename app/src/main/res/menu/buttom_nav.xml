@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/calc"
+        android:title="الحاسبة"
+        android:icon="@drawable/calc"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="المدونة"
+        android:icon="@drawable/baseline_language_white_24"
+        app:showAsAction="always"/>
+    <item
+        android:title="الرئيسية"
+        android:icon="@drawable/baseline_home_white_24"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="المراجعات"
+        android:icon="@drawable/baseline_calendar_today_white_24"
+        app:showAsAction="always"/>
+    <item
+        android:title="التنبيهات"
+        android:icon="@drawable/baseline_add_alert_white_24"
+        app:showAsAction="always"/>
+
+</menu>

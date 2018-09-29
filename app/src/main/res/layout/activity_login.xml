@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.pisoftware.courdz.LoginActivity"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:background="#Fff">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@drawable/side_nav_bar"
+        android:id="@+id/view" />
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignBottom="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon"
+        android:id="@+id/imageView16" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/monadi"
+        android:text="تسجيل الدخول"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="البريد الالكتروني"
+        android:inputType="textEmailAddress"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:hint="كلمة السر"
+        android:inputType="textPassword"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/button3"
+        android:text="تسجيل الدخول"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:id="@+id/button4"
+        />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/facebook"
+        android:paddingLeft="25dp"
+        android:paddingRight="12dp"
+        android:text="تسجيل الدخول باستخدام Facebook"
+        android:textColor="#fff"
+        android:textSize="14dp" />
+
+    <Button
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/buttongoogle"
+        android:drawableLeft="@drawable/google"
+        android:paddingLeft="25dp"
+        android:paddingRight="12dp"
+        android:text="تسجيل الدخول باستخدام جوجل"
+        android:textColor="#000"
+        android:textSize="14dp"
+        android:id="@+id/button5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView16"
+        android:layout_alignStart="@+id/imageView16"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="19dp"
+        android:text="لا تمتلك حساب ؟ "
+        android:textColor="#515151"
+        android:id="@+id/textView4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:background="@drawable/button3"
+        android:text="سجل الان !!"
+        android:textColor="#fff"
+        android:layout_marginTop="4dp"
+        android:onClick="signUp"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="950dp">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="132dp"
+            android:layout_toEndOf="@+id/imageView5"
+            android:layout_toRightOf="@+id/imageView5"
+            android:src="@drawable/books" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView4"
+            android:layout_alignStart="@+id/imageView4"
+            android:layout_below="@+id/imageView4"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/monadi"
+            android:text="كتب"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:id="@+id/textView8" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignTop="@+id/imageView4"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/mola5as" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView5"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/monadi"
+            android:text="ملخصات"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:id="@+id/textView9"
+            />
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignEnd="@+id/textView5"
+            android:layout_alignRight="@+id/textView5"
+            android:layout_alignTop="@+id/imageView5"
+            android:src="@drawable/bookshelf" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView6"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/textView7"
+            android:layout_toStartOf="@+id/textView7"
+            android:fontFamily="@font/monadi"
+            android:gravity="center_horizontal"
+            android:text="سلاسل وحوليات"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/imageView4"
+            android:layout_alignStart="@+id/imageView4"
+            android:layout_below="@+id/textView5"
+            android:src="@drawable/schoolbook"
+            android:id="@+id/imageView3" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/imageView5"
+            android:layout_alignStart="@+id/imageView5"
+            android:layout_below="@+id/textView5"
+            android:src="@drawable/ejabatschool"
+            android:id="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_above="@+id/textView7"
+            android:layout_alignEnd="@+id/textView5"
+            android:layout_alignRight="@+id/textView5"
+            android:src="@drawable/evaultion" />
+
+
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView7"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_alignEnd="@+id/imageView3"
+            android:layout_alignRight="@+id/imageView3"
+            android:fontFamily="@font/monadi"
+            android:gravity="center_horizontal"
+            android:text="كتب مدرسية"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:id="@+id/textView10" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/monadi"
+            android:gravity="center_horizontal"
+            android:text="اجابات الكتاب المدرسي"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:id="@+id/textView7" />
+
+
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView7"
+            android:layout_alignStart="@+id/imageView7"
+            android:layout_below="@+id/imageView7"
+            android:fontFamily="@font/monadi"
+            android:gravity="center_horizontal"
+            android:text="بكالوريات سابقة "
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/imageView3"
+            android:layout_alignStart="@+id/imageView3"
+            android:layout_below="@+id/textView7"
+            android:src="@drawable/vlesson" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_alignStart="@+id/imageView2"
+            android:layout_alignTop="@+id/imageView8"
+            android:src="@drawable/exams" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/imageView7"
+            android:layout_alignStart="@+id/imageView7"
+            android:layout_below="@+id/textView7"
+            android:src="@drawable/quizat" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView8"
+            android:layout_alignRight="@+id/imageView8"
+            android:layout_below="@+id/imageView8"
+            android:fontFamily="@font/monadi"
+            android:gravity="center_horizontal"
+            android:text="دروس مرئية"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView9"
+            android:layout_alignStart="@+id/imageView9"
+            android:layout_below="@+id/imageView9"
+            android:fontFamily="@font/monadi"
+            android:gravity="center_horizontal"
+            android:text="امتحانات"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:id="@+id/textView12" />
+
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView10"
+            android:layout_alignRight="@+id/imageView10"
+            android:layout_below="@+id/imageView10"
+            android:fontFamily="@font/monadi"
+            android:gravity="center_horizontal"
+            android:text="اسئلة تفاعليه"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:id="@+id/textView13" />
+
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignEnd="@+id/textView11"
+            android:layout_alignRight="@+id/textView11"
+            android:layout_below="@+id/textView11"
+            android:src="@drawable/teacher"
+            android:id="@+id/imageView11" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/textView12"
+            android:layout_alignStart="@+id/textView12"
+            android:layout_alignTop="@+id/imageView11"
+            android:src="@drawable/moraj3at"
+            android:id="@+id/imageView12" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignRight="@+id/textView13"
+            android:layout_below="@+id/textView13"
+            android:src="@drawable/mfate7"
+            android:id="@+id/imageView13" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView11"
+            android:layout_alignRight="@+id/imageView11"
+            android:layout_below="@+id/imageView11"
+            android:fontFamily="@font/monadi"
+            android:gravity="center_horizontal"
+            android:text="فضاء الاستاذ"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView12"
+            android:layout_alignRight="@+id/imageView12"
+            android:layout_below="@+id/imageView12"
+            android:fontFamily="@font/monadi"
+            android:gravity="center_horizontal"
+            android:text="منظم المذاكرة"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView15"
+            android:layout_alignBottom="@+id/textView15"
+            android:layout_alignEnd="@+id/imageView13"
+            android:layout_alignRight="@+id/imageView13"
+            android:fontFamily="@font/monadi"
+            android:gravity="center_horizontal"
+            android:text="مفاتيح النجاح"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_below="@+id/textView14"
+            android:src="@drawable/countdown"
+            android:id="@+id/imageView14" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignEnd="@+id/textView15"
+            android:layout_alignRight="@+id/textView15"
+            android:layout_below="@+id/textView15"
+            android:src="@drawable/classroom"
+            android:id="@+id/imageView15" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView11"
+            android:layout_alignStart="@+id/imageView11"
+            android:layout_below="@+id/imageView14"
+            android:fontFamily="@font/monadi"
+            android:gravity="center_horizontal"
+            android:text="العد التنازلي للبكالوريا"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView15"
+            android:layout_alignRight="@+id/imageView15"
+            android:layout_below="@+id/imageView15"
+            android:fontFamily="@font/monadi"
+            android:gravity="center_horizontal"
+            android:text="دروس الدعم"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

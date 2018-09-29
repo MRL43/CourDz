@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "548375053843",
+    "firebase_url": "https://courdz-c4d57.firebaseio.com",
+    "project_id": "courdz-c4d57",
+    "storage_bucket": "courdz-c4d57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548375053843:android:7c8b0daaf3cd3362",
+        "android_client_info": {
+          "package_name": "io.pisoftware.courdz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548375053843-v0vnhlkfqa93th3vdd4fgb00k4rtluq7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.pisoftware.courdz",
+            "certificate_hash": "da802f29658a283f34b200230dbc34ec5ce04fc7"
+          }
+        },
+        {
+          "client_id": "548375053843-rg0pdk9ge79k9g1ppta0o9l1npads90e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjZ5N6mlQ3F5AVnkJbgYt8GygwrsEKk-M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548375053843-rg0pdk9ge79k9g1ppta0o9l1npads90e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
